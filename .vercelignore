@@ -1,0 +1,6 @@
+# Arquivos internos da ferramenta e do git (não fazem parte do site)
+.freebuff/
+.git/
+.gitignore
+.github/
+.vercelignore
