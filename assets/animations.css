@@ -3,6 +3,11 @@
    Todas as transições animam apenas transform e opacity (performance).
    ===================================================================== */
 
+/* Rolagem suave ao navegar por âncoras (ex.: botão do hero → #oferta) */
+html {
+  scroll-behavior: smooth;
+}
+
 /* ---------- Scroll reveal: seções (fade-in, sem movimento — rolagem lisa) ---------- */
 html.anim main section,
 html.anim main footer {
