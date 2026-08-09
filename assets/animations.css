@@ -7,10 +7,9 @@
 html.anim main section,
 html.anim main footer {
   opacity: 0;
-  transform: translateY(28px);
-  transition: opacity 0.65s cubic-bezier(0.22, 0.61, 0.36, 1),
-              transform 0.65s cubic-bezier(0.22, 0.61, 0.36, 1);
-  will-change: opacity, transform;
+  transform: translateY(16px);
+  transition: opacity 0.55s cubic-bezier(0.22, 0.61, 0.36, 1),
+              transform 0.55s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 html.anim main section.reveal-visible,
 html.anim main footer.reveal-visible {
@@ -21,7 +20,7 @@ html.anim main footer.reveal-visible {
 /* ---------- Cards em grade: entrada escalonada (stagger) ---------- */
 html.anim .stagger > * {
   opacity: 0;
-  transform: translateY(24px);
+  transform: translateY(14px);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 html.anim .stagger.reveal-visible > * {
@@ -148,10 +147,6 @@ a[href*="ggcheckout.app"]:active {
 }
 
 /* ---------- Responsividade (não altera conteúdo, apenas adapta) ---------- */
-html,
-body {
-  overflow-x: hidden;
-}
 img,
 video {
   max-width: 100%;

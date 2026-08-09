@@ -67,7 +67,7 @@
           s.textContent = w;
           h.appendChild(s);
           h.appendChild(document.createTextNode(' '));
-          delay += 90;
+          delay += 60;
         });
       });
     });
