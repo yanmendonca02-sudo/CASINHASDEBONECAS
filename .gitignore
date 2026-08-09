@@ -1,0 +1,7 @@
+# Arquivos internos da ferramenta (não fazem parte do site)
+.freebuff/
+
+# Temporários
+server-tmp.js
+server-tmp.log
+*.log
